@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Quicksand;
+}
+.container{
+    max-width: 415px;
+    margin: 0 auto;
+}
+.fornax{
+    background-color: rgb(54, 56, 83);
+    opacity: 0.9;
+  }
+.fornax-box{
+    background-image: url(../images/Layer.png);
+    background-size: cover;
+}
+.fornax-box-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.fornax-box-text p{
+    font-size: 26px;
+    font-family: "Quicksand";
+    color: rgb(255, 255, 255);
+    line-height: 1.545;
+    text-align: center;
+    width: 330px;
+}
+
+.fornax-box-text button{
+    padding: 25px 0;
+    width: 100%;
+    max-width: 240px;
+    border-radius: 15px;
+    font-size: 18px;
+    background: #B27F29;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+}
+.fornax-box-text footer p{
+    font-size: 14px;
+    font-family: "Quicksand";
+    color: rgb(189, 189, 189);
+    line-height: 1.2;
+}
+.fornax-box-text footer a{
+    color: #81c2ff;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 15px 0;
+}
+
+.verification{
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 12px 50px 0px rgba(37, 31, 48, 0.2);
+    text-align: center;
+    width: 310px;
+    padding-bottom: 40px;
+    padding-top: 61px;
+  }
+  
+.verification p{
+    color: #000;
+    width: 215px;
+    height: 68px;
+    font-size: 16px;
+    color: rgb(54, 56, 83);
+    line-height: 1.625;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+.input{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.input input{
+    width: 24px;
+    border: none;
+    border-bottom: 3px solid  rgb(224, 224, 224);;
+    margin-left: 10px;
+}
+
+.btn{
+    border-radius: 18px;
+    background-color: rgb(54, 56, 83);
+    box-shadow: 0px 4px 16px 0px rgba(37, 31, 48, 0.2);
+    width: 165px;
+    padding: 28px 34px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.444;
+    color: #fff;
+  }
+  
+ 
+  
+  

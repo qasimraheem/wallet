@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Quicksand;
+}
+.container{
+    max-width: 415px;
+    margin: 0 auto;
+}
+.fornax-box{
+    background-image: url(../images/Layer.png);
+    background-size: cover;
+    padding: 0 41px;
+}
+.fornax-box-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.fornax-box-text p{
+    font-size: 22px;
+    font-family: "Quicksand";
+    color: rgb(255, 255, 255);
+    line-height: 1.545;
+    text-align: center;
+    width: 293px;
+    padding-bottom: 77px;
+}
+.fornax-box-text h3{
+    color: #fff;
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.input h3{
+    margin-right: 32px;
+    width: 90px;
+    color: #b27f29;
+    font-size: 14px;
+}
+.input input{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 12px;
+    outline: none;
+}
+ ::placeholder{
+    color: #bdbdbd;
+}
+.input img{
+    margin-bottom: 12px;
+    margin-left: -20px;
+}
+.fornax-box-text button{
+    margin-top: 60px;
+    padding: 25px 0;
+    width: 100%;
+    max-width: 240px;
+    border-radius: 15px;
+    font-size: 18px;
+    background: #B27F29;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-bottom: 28px;
+    line-height: 1.2;
+}
+.fornax-box-text footer p{
+    font-size: 14px;
+    font-family: "Quicksand";
+    color: rgb(189, 189, 189);
+    line-height: 1.2;
+}
+.fornax-box-text footer a{
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+  
